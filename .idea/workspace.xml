@@ -4,18 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d11dac4a-ac6b-4949-ba30-dc423e2de5a7" name="Changes" comment="Created Vue+TS project">
-      <change afterPath="$PROJECT_DIR$/my-vue-app/src/components/FormComponent.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-vue-app/src/composables/useAdvancedValidation.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-vue-app/src/composables/useHttp.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-vue-app/src/composables/validationRules.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="d11dac4a-ac6b-4949-ba30-dc423e2de5a7" name="Changes" comment="A ready-made version of the task has been made">
+      <change afterPath="$PROJECT_DIR$/my-vue-app/img.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-vue-app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/my-vue-app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-vue-app/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/my-vue-app/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-vue-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-vue-app/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-vue-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-vue-app/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-vue-app/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/my-vue-app/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-vue-app/src/vite-env.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-vue-app/src/vite-env.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-vue-app/src/components/FormComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/my-vue-app/src/components/FormComponent.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-vue-app/src/composables/validationRules.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-vue-app/src/composables/validationRules.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-vue-app/src/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-vue-app/src/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +63,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742235375966</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="A ready-made version of the task has been made">
+      <option name="closed" value="true" />
+      <created>1742237430197</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1742237430197</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -74,6 +79,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Created Vue+TS project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created Vue+TS project" />
+    <MESSAGE value="A ready-made version of the task has been made" />
+    <option name="LAST_COMMIT_MESSAGE" value="A ready-made version of the task has been made" />
   </component>
 </project>
