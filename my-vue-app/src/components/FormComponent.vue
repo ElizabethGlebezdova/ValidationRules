@@ -2,10 +2,8 @@
 import { useAdvancedValidation } from '../composables/useAdvancedValidation';
 import { required, checkEmailExists, validEmail, minLength, passwordsMatch, validDateOfBirth } from '../composables/validationRules';
 
-// Начальные значения формы
 const initialValues = { email: '', password: '', confirmPassword: '', birthDate: '' };
 
-// Определение правил валидации
 const rules = {
   email: [required(), validEmail(), async (value: string) => await checkEmailExists(value)],
   password: [required(), minLength(8)],

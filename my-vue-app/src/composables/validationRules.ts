@@ -3,7 +3,7 @@ export const required = (message = 'Обязательное поле') => (valu
   return value ? null : message;
 };
 
-// Проверка email через API (асинхронно)
+// Проверка email через API
 export const checkEmailExists = async (email: string) => {
   await new Promise((res) => setTimeout(res, 1000));
   const existingEmails = ['test@example.com', 'admin@example.com'];

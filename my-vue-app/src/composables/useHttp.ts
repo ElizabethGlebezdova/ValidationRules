@@ -1,6 +1,5 @@
 import { ref } from 'vue';
 
-// Универсальный HTTP-запрос
 export function useHttp() {
   const data = ref(null);
   const error = ref<string | null>(null);

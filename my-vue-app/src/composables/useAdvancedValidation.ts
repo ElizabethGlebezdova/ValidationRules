@@ -1,6 +1,5 @@
 import { reactive, computed } from 'vue';
 
-// Типы данных
 type ValidatorFn = (value: any, formValues: FormValues) => string | null | Promise<string | null>;
 type FieldRules = { [key: string]: ValidatorFn[] };
 type FormValues = { [key: string]: any };
@@ -12,7 +11,6 @@ export function useAdvancedValidation(initialValues: FormValues, rules: FieldRul
     validating: {},
   });
 
-  // Валидация одного поля (может быть асинхронной)
   const validateField = async (field: string) => {
     const value = state.values[field];
     const fieldRules = rules[field] || [];
@@ -32,12 +30,10 @@ export function useAdvancedValidation(initialValues: FormValues, rules: FieldRul
     state.validating[field] = false;
   };
 
-  // Валидация всей формы
   const validateForm = async () => {
     await Promise.all(Object.keys(rules).map(validateField));
   };
 
-  // Проверка валидности всей формы
   const isValid = computed(() => Object.values(state.errors).every((error) => !error));
 
   return { state, validateField, validateForm, isValid };
